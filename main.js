@@ -9,11 +9,23 @@ let PORT = 8000;
 
 
 app.get("/hello", function (req, res) {
-    res.send("Hi there");
+    let time = new Date();
+    res.send("TEACH ME TO GET BETTTTEEERRRRR!!!");
 });
+
+
 
 
 app.listen(PORT, function () {
     console.log("Application started on port ", PORT);
 })
 
+
+
+// variables
+// if/else statements
+// loops
+// functions
+// arrays
+// callbacks
+// object literals
